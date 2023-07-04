@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: 'system-ui',sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: O 8%;
+    background: linear-gradient(rgba(0,0,0,0.4), transparent), url('html.png')center center no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+nav .logo{
+    width: 130px;
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(252, 206, 3);
+    
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end  ;
+    align-items: center;
+    flex: 1;
+    padding-right: 40px;
+    text-align: right;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 10px;
+}
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(12, 5, 0);
+    font-size: 20px;
+}
+button.btn{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 0;
+    background-color: turquoise;
+    color: darkgray;
+    border: 1px solid transparent;
+    transition: border-color .3s;
+}
+button.btn:hover{
+    border-color:darkgreen;
+
+}
